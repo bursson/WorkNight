@@ -1,13 +1,11 @@
-.WJ5 {
-    width: 100% !important;
-}
 .WBEJ {
-    width: 100% !important;
+    display: block !important;
 }
 div.WLT.wd-popup.WFVR.WKVR.WGVR.WLDG{
     max-width: 80% !important;
     width: 80% !important;
 }
+
 div[class*='InputContainer']{
     width: 100% !important;
 }
@@ -16,4 +14,7 @@ div[class*='SelectContainer']{
 }
 div[class*='ListContainer']{
     width: 100% !important;
+}
+div[style='width: 280px;']{
+    width: unset !important; 
 }
